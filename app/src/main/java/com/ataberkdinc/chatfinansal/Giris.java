@@ -11,7 +11,6 @@ public class Giris extends AppCompatActivity {
     Button buton_giris;
     Button buton_cikis;
     Button buton_hakkimizda;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

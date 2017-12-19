@@ -1,4 +1,4 @@
-package com.example.selim.chatfinansal23;
+package com.ataberkdinc.chatfinansal;
 
 import org.junit.Test;
 

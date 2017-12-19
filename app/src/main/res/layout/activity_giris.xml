@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ataberkdinc.chatfinansal.Giris"
+    android:background="#4F4F4F">
+
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/Widget.Button"
+        android:layout_width="140sp"
+        android:layout_height="55sp"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:background="@drawable/rounded_blue"
+        android:backgroundTint="@color/com_facebook_button_border_color_focused"
+        android:text="Cikis" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="44dp"
+        app:srcCompat="@drawable/cikis" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Button"
+        android:layout_width="140sp"
+        android:layout_height="55sp"
+        android:background="@drawable/rounded_blue"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignTop="@+id/imageView4"
+        android:backgroundTint="@color/com_facebook_button_border_color_focused"
+        android:text="Hakkimizda" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/ata2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="205dp"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        app:srcCompat="@drawable/chatgiris" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Button"
+        android:layout_width="140sp"
+        android:layout_height="55sp"
+        android:background="@drawable/rounded_blue"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:backgroundTint="@color/com_facebook_button_border_color_focused"
+        android:text="Chat" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/chat" />
+
+
+</RelativeLayout>
+

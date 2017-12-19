@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "58020164392",
+    "firebase_url": "https://chatuygulama-34678.firebaseio.com",
+    "project_id": "chatuygulama-34678",
+    "storage_bucket": "chatuygulama-34678.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58020164392:android:a59e3862db31e1c0",
+        "android_client_info": {
+          "package_name": "com.ataberkdinc.chatfinansal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58020164392-mpn100876ucluetpk2n0rg8kao98rkcp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClXhWmRYcQF9x54m3HN4MgH5OGuOQm1lI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

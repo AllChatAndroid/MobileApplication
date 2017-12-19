@@ -1,4 +1,4 @@
-package com.example.selim.chatfinansal23;
+package com.ataberkdinc.chatfinansal;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.selim.chatfinansal23", appContext.getPackageName());
+        assertEquals("com.ataberkdinc.chatfinansal", appContext.getPackageName());
     }
 }
